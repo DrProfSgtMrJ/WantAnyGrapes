@@ -6,6 +6,9 @@ pub const PRIMARY_BUTTON_MARGIN: f32 = 20.0;
 
 // TODO: highlight, clicked, disabled colors
 
+// #ffeaa7
+pub const PRIMARY_BACKGROUND_COLOR: Color = Color::linear_rgb(255.0, 234.0, 167.0);
+
 // #fde769
 pub const PRIMARY_BUTTON_COLOR: Color = Color::linear_rgb(253.0, 231.0, 106.0);
 

@@ -1,6 +1,17 @@
 use bevy::prelude::Component;
 
 #[derive(Debug, Component)]
+pub struct OnMainMenuScreen {}
+
+#[derive(Debug, Component)]
+pub enum MenuButtonAction {
+    LogIn,
+    CreateAccount,
+    Settings,
+    Quit,
+}
+
+#[derive(Debug, Component)]
 pub struct MainMenu {}
 
 #[derive(Debug, Component)]
